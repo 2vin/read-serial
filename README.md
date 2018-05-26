@@ -5,17 +5,17 @@ The repo contains code for reading serial port in C++/python/shell programs. It 
 
 #  C++    
 ## Compile     
-g++ serialRead.cpp -o main    
+`g++ serialRead.cpp -o main`    
 
 ## Usage    
-./main serial_port     
+`./main serial_port`     
 (Sample:  ./main /dev/ttyUSB0 , where /dev/ttyUSB0 is the port to be read)     
 
 #  Python    
 ## Usage   
-python serialRead.py /dev/USB0    
+`python serialRead.py /dev/ttyUSB0`    
 
 #  Shell    
 ## Usage    
-./serialRead.sh /dev/ttyUSB0    
+`./serialRead.sh /dev/ttyUSB0`    
 
